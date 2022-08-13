@@ -1,0 +1,47 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: black;
+}
+
+/*nav container & styles*/
+
+#nav-container {
+  background-color: black;
+}
+
+#nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+#nav-btn:hover {
+  background-color: #5bc0de;
+}
+
+/* Services page - layout*/
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+  justify-content: center;
+}
+
+#second-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*Contact form*/
+#contact-container {
+  height: auto;
+  max-width: 50%;
+  margin-left: 25%;
+}
